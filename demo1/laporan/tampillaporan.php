@@ -91,7 +91,7 @@
                                                             <td><?php echo $tanggal;?></td>
                                                             <td>
                                                                 <div class="form-button-action">
-                                                                    <a href="?halaman=tampil_laporan&nik=<?php echo $nik;?>" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Hapus Laporan">
+                                                                    <a href="?halaman=tampil_laporan&id=<?php echo $id;?>" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Hapus Laporan">
                                                                         <i class="fa fa-times"></i>
                                                                     </a>
                                                                 </div>
@@ -113,7 +113,7 @@
 
 <?php
     if(isset($_GET['id'])){
-        $sql_hapus = "DELETE FROM tampil_user WHERE id='".$_GET['id']."'";
+        $sql_hapus = "DELETE FROM laporan WHERE id='".$_GET['id']."'";
         $query_hapus = mysqli_query($konek,$sql_hapus);
         if($query_hapus){
             echo "<script language='javascript'>swal('Selamat...', 'Hapus Berhasil', 'success');</script>" ;
