@@ -44,7 +44,7 @@
                 </div>
                 <div class="mt-3">
                   <!-- <a href="SBAdmin/index.html" class="btn btn-block btn-primary btn-sm font-weight-medium auth-form-btn">LOGIN</a> -->
-                  <button type="submit" name="login" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">
+                  <button type="submit" name="login" class="btn btn-block btn-lg font-weight-medium auth-form-btn" style="background-color: #008374; color: #fff;">
                     LOGIN
                   </button>
                 </div>

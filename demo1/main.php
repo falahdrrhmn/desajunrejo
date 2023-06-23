@@ -15,8 +15,8 @@
 		<div class="sidebar sidebar-style-2">			
 			<div class="sidebar-wrapper scrollbar scrollbar-inner">
 				<div class="sidebar-content">
-					<ul class="nav nav-primary">
-						<li class="nav-item active">
+					<ul class="nav ">
+						<li class="nav-item">
 							<a href="main.php">
 								<i class="fas fa-home"></i>
 								<p>Dashboard</p>
@@ -36,33 +36,6 @@
 								<p>Biodata Anda</p>
 							</a>
 						</li>
-						<!-- dropdown surat keterangan -->
-						<!-- <li class="nav-item">
-							<a data-toggle="collapse" href="#tables">
-								<i class="fas fa-table"></i>
-								<p>Request Surat</p>
-								<span class="caret"></span>
-							</a>
-							<div class="collapse" id="tables">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="?halaman=laporan_perbulan">
-											<span class="sub-item">Surat Keterangan Usaha</span>
-										</a>
-									</li>
-									<li>
-										<a href="?halaman=laporan_pertahun">
-											<span class="sub-item">Surat Keterangan Tidak Mampu</span>
-										</a>
-									</li>
-									<li>
-										<a href="?halaman=laporan_pertahun">
-											<span class="sub-item">Surat Keterangan Pembuatan KTP</span>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</li> -->
 						<li class="nav-item">
 							<a href="?halaman=tampil_status">
 								<i class="far fa-calendar-check"></i>
@@ -72,7 +45,7 @@
 
 						<li class="nav-item">
 							<a href="?halaman=tampil_lapor">
-								<i class="far fa-calendar-check"></i>
+								<i class="fa fa-exclamation"></i>
 								<p>Lapor</p>
 							</a>
 						</li>

@@ -9,7 +9,7 @@
                 <div class="card-header">
                     <div class="d-flex align-items-center">
                         <h4 class="card-title">Data Warga</h4>
-                            <a href="?halaman=tambah_user" class="btn btn-primary btn-round ml-auto">
+                            <a href="?halaman=tambah_user" class="btn btn-round ml-auto" style="background-color: #008374; color: #fff;">
                                 <i class="fa fa-plus"></i>
                                     Tambah Akun
                             </a>
@@ -108,7 +108,7 @@
                                                             <td><?php echo $hak_akses;?></td>
                                                             <td>
                                                                 <div class="form-button-action">
-                                                                    <a href="?halaman=ubah_user&nik=<?php echo $username;?>" type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit User">
+                                                                    <a href="?halaman=ubah_user&nik=<?php echo $username;?>" type="button" data-toggle="tooltip" title="" class="btn btn-link btn-lg" style="color: #008374;" data-original-title="Edit User">
                                                                         <i class="fa fa-edit"></i>
                                                                     </a>
                                                                     <a href="?halaman=tampil_user&nik=<?php echo $username;?>" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Hapus User">

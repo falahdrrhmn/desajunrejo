@@ -1,6 +1,3 @@
-
-<title>Desa Junrejo</title>
-
 <?php
  session_start();
  if (isset($_SESSION['password'])=="" || ($_SESSION['hak_akses'])=="")  {
@@ -11,13 +8,12 @@
  }
  ?>
 <?php include 'header.php'; ?>
-
-		<!-- awal Sidebar -->
+<!-- awal Sidebar -->
 		<div class="sidebar sidebar-style-2">			
 			<div class="sidebar-wrapper scrollbar scrollbar-inner">
 				<div class="sidebar-content">
-					<ul class="nav nav-primary">
-						<li class="nav-item active">
+					<ul class="nav">
+						<li class="nav-item" >
 							<a href="main2.php">
 								<i class="fas fa-home"></i>
 								<p>Dashboard</p>
@@ -37,16 +33,10 @@
 						</li>
 						<li class="nav-item">
 							<a href="?halaman=permohonan_surat">
-								<i class="far fa-calendar-check"></i>
+								<i class="fa fa-print"></i>
 								<p>Cetak Surat</p>
 							</a>
 						</li>
-						<!-- <li class="nav-item">
-							<a href="?halaman=kelola_surat">
-								<i class="far fa-calendar-check"></i>
-								<p>Sudah ACC</p>
-							</a>
-						</li> -->
 						<li class="nav-item">
 							<a href="?halaman=surat_dicetak">
 								<i class="far fa-calendar-check"></i>
@@ -80,7 +70,7 @@
 						<!-- visi misi -->
 						<li class="nav-item">
 							<a data-toggle="collapse" href="#turun">
-								<i class="fas fa-table"></i>
+								<i class="fa fa-bullseye"></i>
 								<p>Visi Misi Desa</p>
 								<span class="caret"></span>
 							</a>
@@ -103,7 +93,7 @@
 						<!-- berita -->
 						<li class="nav-item">
 							<a href="?halaman=kelola_berita">
-								<i class="far fa-calendar-check"></i>
+								<i class="fa fa-newspaper"></i>
 								<p>Berita</p>
 							</a>
 						</li>
@@ -111,7 +101,7 @@
 						<!-- laporan warga -->
 						<li class="nav-item">
 							<a href="?halaman=tampil_laporan">
-								<i class="far fa-calendar-check"></i>
+								<i class="fa fa-exclamation"></i>
 								<p>Laporan Warga</p>
 							</a>
 						</li>
@@ -292,5 +282,5 @@
             include 'beranda2.php';
           }
         ?>
-	</div>
+</div>
 <?php include 'footer.php'; ?>

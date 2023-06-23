@@ -58,7 +58,7 @@
 													<td>
 														<div class="form-button-action">
 															<a href="?halaman=view_cetak_sku&id_request_sku=<?=$id_request_sku;?>">
-																<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="View Cetak">
+																<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-lg" data-original-title="View Cetak">
 																	<i class="fa fa-edit"></i>
 																</button>
 															</a>
@@ -205,7 +205,7 @@
 													<td>
 														<div class="form-button-action">
 															<a href="?halaman=view_cetak_skp&id_request_skp=<?=$id_request_skp;?>">
-																<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="View Cetak">
+																<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-lg" data-original-title="View Cetak">
 																	<i class="fa fa-edit"></i>
 																</button>
 															</a>

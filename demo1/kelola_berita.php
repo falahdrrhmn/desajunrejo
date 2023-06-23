@@ -72,6 +72,8 @@
                                                             <th>No.</th>
                                                             <th>Judul</th>
                                                             <th>Isi</th>
+                                                            <th>Nama Staf</th>
+                                                            <th>Gambar</th>
                                                             <th>Tanggal</th>
                                                             <!-- <th>Jenis Kelamin</th>
                                                             <th>Status Warga</th>
@@ -100,13 +102,20 @@
                                                                 $id = $data['id'];
                                                                 $judul = $data['judul'];
                                                                 $isi = $data['isi'];
+                                                                $nama = $data['nama'];
+                                                                $gambar = $data['gambar'];
                                                                 $tanggal = $data['tanggal'];
+                                                                $gambar_path = 'dataFoto/berita/' . $gambar;
+
                                                                 
                                                         ?>
                                                         <tr>
                                                             <td><?php echo $no++;?></td>
                                                             <td><?php echo $judul;?></td>
                                                             <td><?php echo $isi;?></td>
+                                                            <td><?php echo $nama;?></td>
+                                                            <td><img src="../dataFoto/berita/<?php echo basename($gambar); ?>" alt="Gambar" style="width: 100px;"></td>
+
                                                             <td><?php echo $tanggal;?></td>
                                                             
                                                             <td>

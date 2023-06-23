@@ -12,7 +12,7 @@
  }
  ?>
 
-				<div class="panel-header bg-primary-gradient">
+				<div class="panel-header" style="background: linear-gradient(135deg, #008374, #005249);">
 					<div class="page-inner py-5">
 						<div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
 							<div>
@@ -33,7 +33,7 @@
 									<div class="row align-items-center">
 										<a href="?halaman=sudah_acc_sku">
 											<div class="col-icon">
-												<div class="icon-big text-center icon-success bubble-shadow-small">
+												<div class="icon-big text-center icon-success bubble-shadow-small" style="background-color: #008374;">
 													<i class="flaticon-envelope-1"></i>
 												</div>
 											</div>
@@ -68,7 +68,7 @@
 										<div class="row align-items-center">
 											<a href="?halaman=sudah_acc_sktm">
 												<div class="col-icon">
-													<div class="icon-big text-center icon-primary bubble-shadow-small">
+													<div class="icon-big text-center icon-primary bubble-shadow-small" style="background-color: #008374;">
 														<i class="flaticon-envelope-1"></i>
 													</div>
 												</div>
@@ -103,7 +103,7 @@
 									<div class="row align-items-center">
 										<a href="?halaman=sudah_acc_skp">
 											<div class="col-icon">
-												<div class="icon-big text-center icon-warning bubble-shadow-small">
+												<div class="icon-big text-center icon-warning bubble-shadow-small" style="background-color: #008374;">
 													<i class="flaticon-envelope-1"></i>
 												</div>
 											</div>
@@ -148,7 +148,7 @@
 									<div class="row align-items-center">
 										<a href="?halaman=belum_acc_sku">
 											<div class="col-icon">
-												<div class="icon-big text-center icon-success bubble-shadow-small">
+												<div class="icon-big text-center icon-success bubble-shadow-small" style="background-color: #008374;">
 													<i class="flaticon-envelope-1"></i>
 												</div>
 											</div>
@@ -178,7 +178,7 @@
 										<div class="row align-items-center">
 											<a href="?halaman=belum_acc_sktm">
 												<div class="col-icon">
-													<div class="icon-big text-center icon-primary bubble-shadow-small">
+													<div class="icon-big text-center icon-primary bubble-shadow-small" style="background-color: #008374;">
 														<i class="flaticon-envelope-1"></i>
 													</div>
 												</div>
@@ -209,7 +209,7 @@
 									<div class="row align-items-center">
 										<a href="?halaman=belum_acc_skp">
 											<div class="col-icon">
-												<div class="icon-big text-center icon-warning bubble-shadow-small">
+												<div class="icon-big text-center icon-warning bubble-shadow-small" style="background-color: #008374;">
 													<i class="flaticon-envelope-1"></i>
 												</div>
 											</div>

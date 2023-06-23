@@ -67,7 +67,7 @@
                                 <thead>
                                     <tr>
                                         <th>No.</th>
-                                        <th>isi</th>
+                                        <th>Misi</th>
                                         <th style="width: 10%">Action</th>
                                     </tr>
                                 </thead>
@@ -85,10 +85,10 @@
                                         <td><?php echo $isi; ?></td>
                                         <td>
                                             <div class="form-button-action">
-                                                <a href="?halaman=ubahmisi&id=<?php echo $id; ?>" type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit isi">
+                                                <a href="?halaman=ubahmisi&id=<?php echo $id; ?>" type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Misi">
                                                     <i class="fa fa-edit"></i>
                                                 </a>
-                                                <a href="?halaman=misi&id=<?php echo $id; ?>" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Hapus isi">
+                                                <a href="?halaman=misi&id=<?php echo $id; ?>" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Hapus Misi">
                                                     <i class="fa fa-times"></i>
                                                 </a>
                                             </div>

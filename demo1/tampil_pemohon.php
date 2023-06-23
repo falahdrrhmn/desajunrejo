@@ -22,7 +22,7 @@
                 <div class="card-header">
                     <div class="d-flex align-items-center">
                         <h4 class="card-title">BIODATA ANDA</h4>
-                            <a href="?halaman=ubah_pemohon&nik=<?=$nik;?>" class="btn btn-sm btn-warning btn-round ml-auto">
+                            <a href="?halaman=ubah_pemohon&nik=<?=$nik;?>" class="btn btn-md btn-round ml-auto" style="background-color: #008374; color: #fff;">
                                 <i class="fa fa-edit"></i>
                                     Ubah Biodata
                             </a>

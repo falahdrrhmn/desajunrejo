@@ -93,7 +93,7 @@
 									</div>
 								</div>
 								<div class="card-action">
-									<button name="ubah" class="btn btn-success">Ubah</button>
+									<button name="ubah" class="btn" style="background-color: #008374; color: #fff;">Ubah</button>
 									<a href="?halaman=beranda" class="btn btn-default">Batal</a>
 								</div>
 							</div>

@@ -102,7 +102,7 @@ date_default_timezone_set('Asia/Jakarta');
 
 ?>
 
-            <div class="panel-header bg-primary-gradient">
+            <div class="panel-header" style="background: linear-gradient(135deg, #008374, #005249);">
 					<div class="page-inner py-5">
 						<div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
 							<div>
@@ -131,9 +131,13 @@ date_default_timezone_set('Asia/Jakarta');
                                                     <option value="2019">2019</option>
                                                     <option value="2020">2020</option>
 													<option value="2021">2021</option>
+													<option value="2022">2022</option>
+													<option value="2023">2023</option>
+													<option value="2024">2024</option>
+													<option value="2025">2025</option>
 												</select>
-                                                <div class="form-group">
-                                                    <input type="submit" name="tampilkan" value="Tampilkan" class="btn btn-primary btn-sm">
+                                                <div class="form-group" >
+                                                    <input type="submit" name="tampilkan" value="Tampilkan" class="btn btn-primary btn-sm" >
 													<a href="?halaman=laporan_pertahun">
 													<input type="submit" value="Reload" class="btn btn-primary btn-sm">
 													</a>

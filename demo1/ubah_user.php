@@ -75,7 +75,7 @@
 													<label>Hak Akses</label>
 													<select name="hak_akses" class="form-control">
 														<option value="Pemohon" <?php if($hak_akses=="Pemohon") echo 'selected'?>>Pemohon</option>
-														<option value="Lurah" <?php if($hak_akses=="Lurah") echo 'selected'?>>Lurah</option>
+														
 														<option value="Staf" <?php if($hak_akses=="Staf") echo 'selected'?>>Staf</option>
 													</select>
 												</div>
@@ -199,7 +199,7 @@ if(isset($_POST['ubah'])){
 													<select name="hak_akses" class="form-control">
 														<option disbaled="" selected="">Pilih Hak Akses</option>
 														<option value="Pemohon" <?php if($hak_akses=="Pemohon") echo 'selected'?>>Pemohon</option>
-														<option value="Lurah" <?php if($hak_akses=="Lurah") echo 'selected'?>>Lurah</option>
+														
 														<option value="Staf" <?php if($hak_akses=="Staf") echo 'selected'?>>Staf</option>
 													</select>
 												</div>
@@ -207,7 +207,7 @@ if(isset($_POST['ubah'])){
 									</div>
 								</div>
 								<div class="card-action">
-									<button name="ubah" class="btn btn-success">Ubah</button>
+									<button name="ubah" class="btn" style="background-color: #008374; color: #fff;">Ubah</button>
 									<a href="?halaman=beranda" class="btn btn-default">Batal</a>
 								</div>
 							</div>

@@ -59,7 +59,8 @@
                         $isi = $row['isi'];
                         $nama = $row['nama'];
                         $tanggal = $row['tanggal'];
-                        $gambar = 'blog-' . $index . '.jpg'; // URL gambar berdasarkan nomor indeks
+                        // $gambar = 'blog-' . $index . '.jpg'; // URL gambar berdasarkan nomor indeks
+                        $gambar = $row['gambar'];
                         $pp = 'blog-author-' . $index . '.jpg';
                         $index++
 
@@ -74,11 +75,10 @@
                         </div>
                         <p class="post-category">Politics</p>
                         <h2 class="title">
-                            <a href="berita-details"><?php echo $judul; ?></a>
+                            <a href=""><?php echo $judul; ?></a>
                         </h2>
                         <p><?php echo $isi ?></p>
                         <div class="d-flex align-items-center">
-                            <img src="../../dataFoto/berita/<?php echo $pp; ?>" alt="" class="img-fluid post-author-img flex-shrink-0">
                             <div class="post-meta">
                             <p class="post-author-list"><?php echo $nama; ?></p>
                             <p class="post-date">

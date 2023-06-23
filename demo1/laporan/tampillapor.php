@@ -21,7 +21,7 @@
 									</div>
 								</div>
 								<div class="card-action">
-									<button name="simpan" class="btn btn-success btn-sm">Simpan</button>
+									<button name="simpan" class="btn btn-sm" style="background-color: #008374; color:#fff;">Simpan</button>
 									<a href="?halaman=tampil_lapor" class="btn btn-default btn-sm">Batal</a>
 								</div>
 							</div>

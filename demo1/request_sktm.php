@@ -53,7 +53,7 @@
 									</div>
 								</div>
 								<div class="card-action">
-									<button name="kirim" class="btn btn-success">Kirim</button>
+									<button name="kirim" class="btn" style="background-color: #008374; color: #fff;">Kirim</button>
 									<a href="?halaman=beranda" class="btn btn-default">Batal</a>
 								</div>
 							</div>

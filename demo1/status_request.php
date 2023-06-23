@@ -52,7 +52,7 @@
 															}elseif($status=="0"){
 																$status = "<b style='color:red'>BELUM ACC staf</b>";
 															}elseif($status=="2"){
-																$status = "<b style='color:blue'>Sudah ACC Staf</b>";
+																$status = "<b style='color:green'>Sudah ACC Staf</b>";
 															}elseif($status=="3"){
 																$status = "<b style='color:green'>SURAT SUDAH DICETAK</b>";
 															}
@@ -70,7 +70,7 @@
 														<td>
 															<div class="form-button-action">
 																<a href="?halaman=ubah_sku&id_request_sku=<?= $id_request_sku;?>">
-																	<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Data">
+																	<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-lg" style="color: #008374;" data-original-title="Edit Data">
 																		<i class="fa fa-edit"></i>
 																	</button>
 																</a>
@@ -137,7 +137,7 @@
                                                         }elseif($status=="0"){
                                                             $status = "<b style='color:red'>BELUM ACC staf</b>";
                                                         }elseif($status=="2"){
-															$status = "<b style='color:blue'>Sudah ACC Staf</b>";
+															$status = "<b style='color:green'>Sudah ACC Staf</b>";
 														}elseif($status=="3"){
 															$status = "<b style='color:green'>SURAT SUDAH DICETAK</b>";
 														}
@@ -154,7 +154,7 @@
 													<td>
 														<div class="form-button-action">
 															<a href="?halaman=ubah_sktm&id_request_sktm=<?= $id_request_sktm;?>">
-																<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Data">
+																<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-lg" style="color: #008374;" data-original-title="Edit Data">
 																	<i class="fa fa-edit"></i>
 																</button>
 															</a>
@@ -222,7 +222,7 @@
                                                         }elseif($status=="0"){
                                                             $status = "<b style='color:red'>BELUM ACC staf</b>";
                                                         }elseif($status=="2"){
-															$status = "<b style='color:blue'>Sudah ACC Staf</b>";
+															$status = "<b style='color:green'>Sudah ACC Staf</b>";
 														}elseif($status=="3"){
 															$status = "<b style='color:green'>SURAT SUDAH DICETAK</b>";
 														}
@@ -239,7 +239,7 @@
 													<td>
 														<div class="form-button-action">
 														<a href="?halaman=ubah_skp&id_request_skp=<?=$id_request_skp;?>">
-															<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Data">
+															<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-lg" style="color: #008374;" data-original-title="Edit Data">
 																<i class="fa fa-edit"></i>
 															</button>
 														</a>

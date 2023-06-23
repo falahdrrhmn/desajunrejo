@@ -8,10 +8,10 @@
             <div class="card">
                 <div class="card-header">
                     <div class="d-flex align-items-center">
-                        <h4 class="card-title">isi Desa</h4>
+                        <h4 class="card-title">Visi Desa</h4>
                             <a href="?halaman=tambahisi" class="btn btn-primary btn-round ml-auto">
                                 <i class="fa fa-plus"></i>
-                                    Tambah isi
+                                    Tambah Visi
                             </a>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                                                     <thead>
                                                         <tr>
                                                             <th>No.</th>
-                                                            <th>isi</th>
+                                                            <th>Visi</th>
                                                             <th style="width: 10%">Action</th>
                                                         </tr>
                                                     </thead>
@@ -88,7 +88,7 @@
                                                             <td><?php echo $isi;?></td>
                                                             <td>
                                                                 <div class="form-button-action">
-                                                                    <a href="?halaman=ubahvisi&id=<?php echo $id;?>" type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit isi">
+                                                                    <a href="?halaman=ubahvisi&id=<?php echo $id;?>" type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Visi">
                                                                         <i class="fa fa-edit"></i>
                                                                     </a>
                                                                     <a href="?halaman=visi&id=<?php echo $id;?>" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Hapus isi">
